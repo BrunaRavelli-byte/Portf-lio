@@ -1,0 +1,6 @@
+@media screen {min-width: 769px;
+    header {
+        flex-direction: column;
+    }
+    
+}
