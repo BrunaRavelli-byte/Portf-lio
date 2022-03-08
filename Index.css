@@ -6,8 +6,7 @@ header {
     flex-direction: row;
     height: 126px;
     background-repeat: no-repeat;
-     background: linear-gradient(45deg,#FF008E,#D22779,#612897,#0C1E7F,
-     #1A1A40,#270082,#7A0BC0); background-size: 500% 500%;  
+    background: linear-gradient(#380974, #a160f2);; background-size: 500% 500%;  
      color: #1b1b1e;
     
 }
@@ -44,8 +43,8 @@ header {
 }
 .sou {
     background-repeat: no-repeat;
-    background: linear-gradient(#380974, #a160f2);
-    color: #f7fbfc;
+    background:linear-gradient(#F20089, #E500A4, #B100E8, #8900F2, #D100D1);
+    color: #1b1b1e;
     font-size: 20px;
     height: 20em;
 }
@@ -88,4 +87,36 @@ header {
     content: url("./Images/online-course\ \(1\).png");
     position: relative;
    
+}
+.xp {
+    background-repeat: no-repeat;
+    background:linear-gradient(#F20089, #E500A4, #B100E8, #8900F2, #D100D1);
+    color: #1b1b1e;
+    font-size: 20px;
+    height: 20em;
+}
+.Link {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: center;
+}
+footer {
+    height: 146px;
+    border-top: 123px;
+    margin-top: -22px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    background: linear-gradient(#380974, #a160f2);
+    color: #f7fbfc;
+}
+.contact {
+    margin-left: 186px;
+    font-size: x-large;
+    
 }
